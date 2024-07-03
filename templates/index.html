@@ -1,0 +1,23 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Time</title>
+</head>
+<body>
+<h1>Smart Time</h1>
+<form action="/generate_schedule" method="POST">
+<label for="tasks">Tasks:</label>
+<input type="text" name="tasks[]" id="tasks">
+<br>
+<label for="time_slots">Time Slots:</label>
+<input type="text" name="time_slots[]" id="time_slots">
+<br>
+<input type="submit" value="Generate Schedule">
+</form>
+</body>
+</html>
+
